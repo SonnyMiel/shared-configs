@@ -1,0 +1,31 @@
+{
+  "name": "@template/design-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "pnpm panda codegen",
+    "build": "tsup"
+  },
+  "keywords": [ ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pandacss/dev": "0.36.0",
+    "@park-ui/panda-preset": "0.36.1",
+    "@template/eslint-config-custom": "workspace:*",
+    "@template/tsconfig": "workspace:*",
+    "@types/react": "18.2.67",
+    "@types/react-dom": "18.2.22",
+    "tsup": "8.0.2"
+  },
+  "dependencies": {
+    "@ark-ui/anatomy": "^2.3.1",
+    "@ark-ui/react": "2.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

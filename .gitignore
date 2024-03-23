@@ -1,0 +1,55 @@
+# Dependencies and AdonisJS build
+node_modules
+build
+tmp
+vendor
+storage/*.key
+
+#styled-system
+styled-system
+
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Secrets
+.env
+.env.backup
+.env.local
+.env.production
+.env.production.local
+.env.development.local
+
+# Frontend assets compiled code
+public/assets
+public/build
+public/hot
+public/storage
+
+# Build tools specific
+npm-debug.log
+yarn-error.log
+npm-debug.log
+yarn-error.log
+
+# Editors specific
+.fleet
+.idea
+.vscode
+
+# Platform specific
+.DS_Store
+
+.phpunit.cache
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+
+## Panda
+styled-system
+styled-system-studio

@@ -1,0 +1,7 @@
+{
+  "extends": ["@template/tsconfig/react.json"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"]
+}
