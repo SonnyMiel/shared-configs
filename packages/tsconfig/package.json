@@ -1,3 +1,4 @@
 {
-  "name": "@template/tsconfig"
+  "name": "@template/tsconfig",
+  "type": "module"
 }
