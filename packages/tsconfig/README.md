@@ -13,3 +13,6 @@ npm install @sonnymiel/tsconfig
 ```json
  "extends": ["@sonnymiel/tsconfig/base.json"]
 ```
+
+MIT © [Sonny Miel](https://github.com/sonnymiel)
+
