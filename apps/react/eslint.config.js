@@ -1,6 +1,6 @@
 /// <reference types="@eslint-types/typescript-eslint" />
 //
-import config from "@template/eslint-config-custom";
+import config from "@sonnymiel/eslint-config";
 
 // console.log(config.node)
 

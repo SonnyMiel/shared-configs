@@ -1,10 +1,9 @@
 {
-  "extends": ["@template/tsconfig/base.json"],
+  "extends": ["@sonnymiel/tsconfig/base.json"],
   "include": [ "src" ],
   "compilerOptions": {
     "module": "ESNext",
     "outDir": "dist",
-    "rootDir": "src",
-    "types": ["node", "./src/index.d.ts"]
+    "rootDir": "src"
   }
 }

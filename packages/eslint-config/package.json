@@ -1,12 +1,15 @@
 {
   "name": "@sonnymiel/eslint-config",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Sonny Miel <sonny.miel@gmail.com> (https://github.com/sonnymiel)",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/SonnyMiel/shared-configs.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -17,7 +20,8 @@
     "build": "tsup",
     "dev": "npx @eslint/config-inspector --config eslint.config.ts",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "publish": "pnpm build && pnpm publish"
   },
   "dependencies": {
     "@arthurgeron/eslint-plugin-react-usememo": "2.4.0",
@@ -69,9 +73,9 @@
     "eslint": "^9.0.0"
   },
   "devDependencies": {
+    "@sonnymiel/tsconfig": "1.0.0",
     "@eslint-types/typescript-eslint": "7.5.0",
     "@eslint/compat": "1.0.3",
-    "@template/tsconfig": "workspace:*",
     "@types/eslint": "8.56.10",
     "tsup": "8.0.2",
     "typescript": "5.2.2"

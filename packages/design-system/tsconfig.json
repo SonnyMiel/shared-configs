@@ -1,5 +1,5 @@
 {
-  "extends": ["@template/tsconfig/react.json"],
+  "extends": ["@sonnymiel/tsconfig/react.json"],
   "compilerOptions": {
     "allowSyntheticDefaultImports": true
   },

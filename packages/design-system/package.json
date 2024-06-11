@@ -16,8 +16,8 @@
   "devDependencies": {
     "@pandacss/dev": "0.36.0",
     "@park-ui/panda-preset": "0.36.1",
-    "@template/eslint-config-custom": "workspace:*",
-    "@template/tsconfig": "workspace:*",
+    "@sonnymiel/eslint-config": "workspace:*",
+    "@sonnymiel/tsconfig": "1.0.0",
     "@types/react": "18.2.67",
     "@types/react-dom": "18.2.22",
     "tsup": "8.0.2"
