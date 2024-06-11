@@ -1,7 +1,7 @@
 {
   "name": "@sonnymiel/eslint-config",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Sonny Miel <sonny.miel@gmail.com> (https://github.com/sonnymiel)",
   "license": "MIT",
   "repository": {
