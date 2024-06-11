@@ -1,10 +1,14 @@
 {
-  "name": "Template",
+  "name": "Shared configs",
   "version": "1.0.0",
   "type": "module",
-  "description": "A template that contains all applications bootstrap",
+  "description": "A monorepo for shared configs",
   "author": "Sonny Miel <sonny.miel@gmail.com> (https://github.com/sonnymiel)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SonnyMiel/shared-configs.git"
+  },
   "devDependencies": {
     "eslint": "9.3.0",
     "typescript": "5.4.3",

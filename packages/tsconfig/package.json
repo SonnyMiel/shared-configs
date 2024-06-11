@@ -1,4 +1,14 @@
 {
-  "name": "@template/tsconfig",
-  "type": "module"
+  "name": "@sonnymiel/tsconfig",
+  "version": "1.0.0",
+  "author": "Sonny Miel <sonny.miel@gmail.com> (https://github.com/sonnymiel)",
+  "license": "MIT",
+  "files": ["*.json"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SonnyMiel/shared-configs.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

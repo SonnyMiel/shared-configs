@@ -1,9 +1,13 @@
 {
-  "name": "@template/eslint-config-custom",
+  "name": "@sonnymiel/eslint-config",
   "type": "module",
   "version": "0.0.1",
   "author": "Sonny Miel <sonny.miel@gmail.com> (https://github.com/sonnymiel)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SonnyMiel/shared-configs.git"
+  },
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "engines": {
@@ -31,12 +35,12 @@
     "eslint-plugin-jsonc": "2.16.0",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-n": "17.7.0",
-    "eslint-plugin-no-constructor-bind": "^2.0.4",
+    "eslint-plugin-no-constructor-bind": "2.0.4",
     "eslint-plugin-no-explicit-type-exports": "0.12.1",
     "eslint-plugin-no-only-tests": "3.1.0",
     "eslint-plugin-no-unsanitized": "4.0.2",
     "eslint-plugin-no-use-extend-native": "0.6.1",
-    "eslint-plugin-perfectionist": "^2.10.0",
+    "eslint-plugin-perfectionist": "2.10.0",
     "eslint-plugin-promise": "6.2.0",
     "eslint-plugin-react": "7.34.2",
     "eslint-plugin-react-form-fields": "1.2.22",
@@ -48,18 +52,18 @@
     "eslint-plugin-simple-import-sort": "12.1.0",
     "eslint-plugin-sonar": "0.14.1",
     "eslint-plugin-sonarjs": "1.0.3",
-    "eslint-plugin-sort-class-members": "^1.20.0",
-    "eslint-plugin-toml": "^0.11.0",
+    "eslint-plugin-sort-class-members": "1.20.0",
+    "eslint-plugin-toml": "0.11.0",
     "eslint-plugin-total-functions": "7.1.0",
     "eslint-plugin-unicorn": "53.0.0",
     "eslint-plugin-unused-imports": "4.0.0",
     "eslint-plugin-validate-jsx-nesting": "0.1.1",
     "eslint-plugin-yml": "1.14.0",
-    "globals": "^15.3.0",
-    "jsonc-eslint-parser": "^2.4.0",
-    "toml-eslint-parser": "^0.9.3",
+    "globals": "15.3.0",
+    "jsonc-eslint-parser": "2.4.0",
+    "toml-eslint-parser": "0.9.3",
     "typescript-eslint": "7.11.0",
-    "yaml-eslint-parser": "^1.2.3"
+    "yaml-eslint-parser": "1.2.3"
   },
   "peerDependencies": {
     "eslint": "^9.0.0"
