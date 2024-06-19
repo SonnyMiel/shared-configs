@@ -90,14 +90,6 @@ export default [
       "@microsoft/sdl": sdl,
     },
   },
-  ...typescript,
-  ...commonjs,
-  ...javascript,
-  ...json,
-  ...html,
-  ...test,
-  ...toml,
-  ...yaml,
   {
     linterOptions: {
       reportUnusedDisableDirectives: true,
@@ -168,4 +160,12 @@ export default [
   ...unicornRules,
   ...unusedImportsRules,
 
+  ...typescript,
+  ...commonjs,
+  ...javascript,
+  ...json,
+  ...html,
+  ...test,
+  ...toml,
+  ...yaml,
 ] satisfies FlatConfigItem;

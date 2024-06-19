@@ -1,7 +1,7 @@
 {
   "name": "@sonnymiel/eslint-config",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Sonny Miel <sonny.miel@gmail.com> (https://github.com/sonnymiel)",
   "license": "MIT",
   "repository": {
@@ -21,7 +21,7 @@
     "dev": "npx @eslint/config-inspector --config eslint.config.ts",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "publish": "pnpm build && pnpm publish"
+    "publish": "pnpm build && npm publish"
   },
   "dependencies": {
     "@arthurgeron/eslint-plugin-react-usememo": "2.4.0",
