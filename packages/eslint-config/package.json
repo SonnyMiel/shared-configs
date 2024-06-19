@@ -21,7 +21,7 @@
     "dev": "npx @eslint/config-inspector --config eslint.config.ts",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "upgrade": "pnpm build && npm publish"
+    "prepublish": "pnpm build"
   },
   "dependencies": {
     "@arthurgeron/eslint-plugin-react-usememo": "2.4.0",
